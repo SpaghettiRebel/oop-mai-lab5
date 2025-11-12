@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lab5_app.dir/src/main.cpp.o -o bin/lab5_app 

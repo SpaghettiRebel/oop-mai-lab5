@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4
-BuildDirectory: /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build
+SourceDirectory: /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5
+BuildDirectory: /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4"
+ConfigureCommand: "/usr/bin/cmake" "/mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

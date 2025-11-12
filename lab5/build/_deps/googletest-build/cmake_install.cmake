@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build/_deps/googletest-src
+# Install script for directory: /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("/mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build/_deps/googletest-build/googlemock/cmake_install.cmake")
 endif()
 

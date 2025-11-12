@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/include
+CXX_INCLUDES = -I/mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/include
 
 CXX_FLAGS = -std=c++20
 

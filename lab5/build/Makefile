@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4
+CMAKE_SOURCE_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build/CMakeFiles /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build/CMakeFiles /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -172,30 +172,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab4_app
+# Target rules for targets named lab5_app
 
 # Build rule for target.
-lab4_app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab4_app
-.PHONY : lab4_app
+lab5_app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab5_app
+.PHONY : lab5_app
 
 # fast build rule for target.
-lab4_app/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4_app.dir/build.make CMakeFiles/lab4_app.dir/build
-.PHONY : lab4_app/fast
+lab5_app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_app.dir/build.make CMakeFiles/lab5_app.dir/build
+.PHONY : lab5_app/fast
 
 #=============================================================================
-# Target rules for targets named lab4_tests
+# Target rules for targets named lab5_tests
 
 # Build rule for target.
-lab4_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab4_tests
-.PHONY : lab4_tests
+lab5_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab5_tests
+.PHONY : lab5_tests
 
 # fast build rule for target.
-lab4_tests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4_tests.dir/build.make CMakeFiles/lab4_tests.dir/build
-.PHONY : lab4_tests/fast
+lab5_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_tests.dir/build.make CMakeFiles/lab5_tests.dir/build
+.PHONY : lab5_tests/fast
 
 #=============================================================================
 # Target rules for targets named Experimental
@@ -618,7 +618,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4_app.dir/build.make CMakeFiles/lab4_app.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_app.dir/build.make CMakeFiles/lab5_app.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -626,7 +626,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4_app.dir/build.make CMakeFiles/lab4_app.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_app.dir/build.make CMakeFiles/lab5_app.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -634,7 +634,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4_app.dir/build.make CMakeFiles/lab4_app.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_app.dir/build.make CMakeFiles/lab5_app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 tests/test_main.o: tests/test_main.cpp.o
@@ -642,7 +642,7 @@ tests/test_main.o: tests/test_main.cpp.o
 
 # target to build an object file
 tests/test_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4_tests.dir/build.make CMakeFiles/lab4_tests.dir/tests/test_main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_tests.dir/build.make CMakeFiles/lab5_tests.dir/tests/test_main.cpp.o
 .PHONY : tests/test_main.cpp.o
 
 tests/test_main.i: tests/test_main.cpp.i
@@ -650,7 +650,7 @@ tests/test_main.i: tests/test_main.cpp.i
 
 # target to preprocess a source file
 tests/test_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4_tests.dir/build.make CMakeFiles/lab4_tests.dir/tests/test_main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_tests.dir/build.make CMakeFiles/lab5_tests.dir/tests/test_main.cpp.i
 .PHONY : tests/test_main.cpp.i
 
 tests/test_main.s: tests/test_main.cpp.s
@@ -658,7 +658,7 @@ tests/test_main.s: tests/test_main.cpp.s
 
 # target to generate assembly for a file
 tests/test_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4_tests.dir/build.make CMakeFiles/lab4_tests.dir/tests/test_main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_tests.dir/build.make CMakeFiles/lab5_tests.dir/tests/test_main.cpp.s
 .PHONY : tests/test_main.cpp.s
 
 # Help Target
@@ -706,8 +706,8 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... lab4_app"
-	@echo "... lab4_tests"
+	@echo "... lab5_app"
+	@echo "... lab5_tests"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

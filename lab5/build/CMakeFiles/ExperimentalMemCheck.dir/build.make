@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4
+CMAKE_SOURCE_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build
 
 # Utility rule file for ExperimentalMemCheck.
 
@@ -82,6 +82,6 @@ CMakeFiles/ExperimentalMemCheck.dir/clean:
 .PHONY : CMakeFiles/ExperimentalMemCheck.dir/clean
 
 CMakeFiles/ExperimentalMemCheck.dir/depend:
-	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4 /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4 /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5 /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5 /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ExperimentalMemCheck.dir/depend
 

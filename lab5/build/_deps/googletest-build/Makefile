@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4
+CMAKE_SOURCE_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build/CMakeFiles /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build/_deps/googletest-build//CMakeFiles/progress.marks
-	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build/CMakeFiles 0
+	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build/CMakeFiles /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build/_deps/googletest-build//CMakeFiles/progress.marks
+	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/clean
+	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,17 +158,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
+	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
+	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/Вячеслав/Desktop/oop/lab5/oop-mai-lab5/lab5/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

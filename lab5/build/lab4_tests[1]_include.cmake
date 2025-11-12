@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build/lab4_tests[1]_tests.cmake")
+  include("/mnt/c/Users/Вячеслав/Desktop/oop/lab4/oop-mai-lab4/lab4/build/lab4_tests[1]_tests.cmake")
+else()
+  add_test(lab4_tests_NOT_BUILT lab4_tests_NOT_BUILT)
+endif()

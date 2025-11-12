@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lab4_app.dir/src/main.cpp.o -o bin/lab4_app 
